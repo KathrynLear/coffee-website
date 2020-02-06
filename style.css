@@ -3,6 +3,7 @@ h1{
     font-size: 100px; 
     
     font-family: 'Palatino', serif;
+    display: inline;
 }
 #second-header{
     color: #000000;
@@ -20,4 +21,19 @@ p{
     margin-left: auto;
     text-align: center;
     margin-top: 10%;
+    position: relative;
+    z-index: 2;
+}
+    #hero-beans{
+        background-image: url("Images/beans-min.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        position: absolute;
+        z-index: 1;
+    width: 50%;
+    height: 700px;
+
+    top:0px;
+    right:0px;
+
 }
